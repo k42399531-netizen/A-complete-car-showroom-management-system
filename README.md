@@ -16,6 +16,10 @@ A robust and secure Backend API for a Car Rental System, built with Node.js, Exp
 - **Security:** bcrypt (password hashing), jsonwebtoken (auth)
 - **Environment:** dotenv (for secure configuration management)
 
+### ⚠️ Security Note
+For security reasons, I have not included the actual `.env` file in this repository. 
+Please rename `.env.example` to `.env` and fill in the required variables (e.g., `MONGO_URI`, `JWT_SECRET`) to run the application locally.
+
 ## 📋 Prerequisites
 Ensure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (v14 or higher)
