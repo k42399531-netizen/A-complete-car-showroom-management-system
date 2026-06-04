@@ -1,18 +1,27 @@
 Car Management System 🚗
-نظام متكامل لإدارة معرض السيارات وتأجيرها، مصمم ليوفر تحكماً كاملاً في العمليات الإدارية والمستخدمين.
 
-📋 نظرة عامة
-تم بناء هذا المشروع باستخدام Node.js، Express، و MongoDB. يوفر النظام واجهات برمجة تطبيقات (API) لإدارة السيارات، تسجيل دخول المستخدمين، وعمليات التأجير مع مراعاة الجوانب الأمنية ومعالجة الأخطاء.  
+A comprehensive system for managing a car gallery and rental services, designed to provide full control over administrative operations and user interactions.
 
-🚀 المميزات الرئيسيةإدارة السيارات:
-إضافة، تعديل، حذف، وعرض السيارات.  نظام المستخدمين: تسجيل مستخدمين جدد (Register) وتسجيل دخول آمن (Login) باستخدام JWT.  إدارة التأجير: حساب تكاليف التأجير، تطبيق خصومات، والتحقق من قيود الحجز (حتى سيارتين للمستخدم).  الأمان: تشفير كلمات السر باستخدام bcrypt وتطبيق نظام صلاحيات للأدمن (Admin Roles).  معالجة الأخطاء: نظام موحد لمعالجة الأخطاء (Global Error Handling).  
+📋 Overview:
 
+This project is built using Node.js, Express, and MongoDB. The system provides APIs for managing cars, user registration/login, and rental processes, with a focus on security and error handling.
 
-🛠 التقنيات المستخدمة
-
-Backend: Node.js, Express.js 
-Database: MongoDB, Mongoose
-Security: JSON Web Token (JWT), Bcrypt Environment: Dotenv  
+🚀 Key Features:
 
 
-هذا المشروع تم تطويره كجزء من رحلة تعلم تقنيات الـ Backend.
+Car Management: Add, update, delete, and list cars.  
+User System: User registration and secure login using JWT.  
+Rental Management: Calculate rental costs, apply discounts, and manage rental constraints (maximum of two cars per user). 
+Security: Password encryption using bcrypt and role-based access control (Admin roles).  
+Error Handling: A centralized global error handling system.  
+
+🛠 Tech StackBackend:
+
+Node.js, Express.js  
+Database: MongoDB, Mongoose  
+Security: JSON Web Token (JWT), Bcrypt  Environment: Dotenv  
+
+ Security NoticeNever :
+ push the .env file to your GitHub repository to protect your database credentials and secret keys.  
+
+ This project was developed as part of a Backend development learning journey.
