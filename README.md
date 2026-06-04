@@ -1,33 +1,18 @@
-# Car Rental Backend API
+Car Management System 🚗
+نظام متكامل لإدارة معرض السيارات وتأجيرها، مصمم ليوفر تحكماً كاملاً في العمليات الإدارية والمستخدمين.
 
-A robust and secure Backend API for a Car Rental System, built with Node.js, Express, and MongoDB. This project manages car inventory, user authentication, and vehicle rental processes.
+📋 نظرة عامة
+تم بناء هذا المشروع باستخدام Node.js، Express، و MongoDB. يوفر النظام واجهات برمجة تطبيقات (API) لإدارة السيارات، تسجيل دخول المستخدمين، وعمليات التأجير مع مراعاة الجوانب الأمنية ومعالجة الأخطاء.  
 
-## 🚀 Features
-- **User Authentication:** Secure registration and login system using JWT (JSON Web Tokens).
-- **Role-Based Access Control (RBAC):** Middleware-protected routes to differentiate between standard users and administrators.
-- **Inventory Management:** Complete CRUD operations for car listings (Brand, Model, Year, Price, etc.).
-- **Rental System:** Automated logic to calculate rental duration and total price.
-- **Data Integrity:** Schema validation using Mongoose to ensure data consistency.
+🚀 المميزات الرئيسيةإدارة السيارات:
+إضافة، تعديل، حذف، وعرض السيارات.  نظام المستخدمين: تسجيل مستخدمين جدد (Register) وتسجيل دخول آمن (Login) باستخدام JWT.  إدارة التأجير: حساب تكاليف التأجير، تطبيق خصومات، والتحقق من قيود الحجز (حتى سيارتين للمستخدم).  الأمان: تشفير كلمات السر باستخدام bcrypt وتطبيق نظام صلاحيات للأدمن (Admin Roles).  معالجة الأخطاء: نظام موحد لمعالجة الأخطاء (Global Error Handling).  
 
-## 🛠 Tech Stack
-- **Runtime:** Node.js
-- **Framework:** Express.js
-- **Database:** MongoDB with Mongoose ODM
-- **Security:** bcrypt (password hashing), jsonwebtoken (auth)
-- **Environment:** dotenv (for secure configuration management)
 
-### ⚠️ Security Note
-For security reasons, I have not included the actual `.env` file in this repository. 
-Please rename `.env.example` to `.env` and fill in the required variables (e.g., `MONGO_URI`, `JWT_SECRET`) to run the application locally.
+🛠 التقنيات المستخدمة
 
-## 📋 Prerequisites
-Ensure you have the following installed on your machine:
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [MongoDB](https://www.mongodb.com/) (Local instance or Atlas cloud)
+Backend: Node.js, Express.js 
+Database: MongoDB, Mongoose
+Security: JSON Web Token (JWT), Bcrypt Environment: Dotenv  
 
-## ⚙️ Installation & Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+هذا المشروع تم تطويره كجزء من رحلة تعلم تقنيات الـ Backend.
